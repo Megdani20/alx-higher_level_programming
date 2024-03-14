@@ -6,6 +6,8 @@ if number > 0:
 elif number < 0:
     numi = -number % 10
     last_digit = numi * (-1)
+elif number == 0:
+    last_digit = 0
 
 
 if last_digit > 5:
